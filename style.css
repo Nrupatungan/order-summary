@@ -35,3 +35,7 @@ html {
     background: white;
     overflow: hidden;
   }
+  /**hero image repair**/
+  .container .hero img {
+    width: 100%;
+  }

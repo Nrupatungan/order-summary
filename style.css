@@ -163,3 +163,17 @@ html {
     color: #1f2f56;
     font-size: 105%;
   }
+  /**media resolution set up**/
+  @media only screen and (max-width: 475px) {
+    .container {
+      max-width: 50%;
+      max-height: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) {
+    .container {
+      max-width: 27.065rem;
+      max-height: 45.86rem;
+    }
+  }

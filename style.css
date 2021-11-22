@@ -10,3 +10,13 @@ html {
     -webkit-box-sizing: inherit;
             box-sizing: inherit;
   }
+  /*****Setting Hero image  and font family****/
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e0e8ff;
+    min-height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+    position: relative;
+  }

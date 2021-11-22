@@ -177,3 +177,12 @@ html {
       max-height: 45.86rem;
     }
   }
+  /**attribution set up**/
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: #3e52a3;
+  }

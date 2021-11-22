@@ -39,3 +39,73 @@ html {
   .container .hero img {
     width: 100%;
   }
+  /**style set up for text content**/
+  .container .text-content {
+    padding: 7%;
+    text-align: center;
+  }
+  
+  .container .text-content .title {
+    color: #1f2f56;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container .text-content .subtitle {
+    color: #7280a7;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .container .text-content .rate-box {
+    background-color: #f5f7ff;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15px 25px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .container .text-content .rate-box .rate-box-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 0.3;
+  }
+  
+  .container .text-content .rate-box .rate-box-left div {
+    padding-left: 18px;
+    padding-bottom: 7px;
+  }
+  
+  .container .text-content .rate-box .rate-box-left div h4 {
+    color: #1f2f56;
+    font-size: 1.0275rem;
+  }
+  
+  .container .text-content .rate-box .rate-box-left div p {
+    color: #7280a7;
+  }
+  
+  .container .text-content .rate-box .rate-right {
+    color: #3829e0;
+    font-weight: 700;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+  }
+  
+  .container .text-content .rate-box .rate-right:hover {
+    text-decoration: none;
+    color: rgba(183, 0, 255, 0.7);
+    font-size: 105%;
+  }

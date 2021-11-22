@@ -12,7 +12,7 @@ html {
   }
   /*****Setting Hero image  and font family****/
   body {
-    background-image: url(/images/pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #e0e8ff;

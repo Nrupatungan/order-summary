@@ -1,2 +1,2 @@
 # order-summary
-FI challenge
+Frontend challenge
